@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"po",
+				"points"
+			],
+			[
+				"p",
+				"point"
+			],
+			[
+				"poi",
+				"pointNext"
+			],
+			[
+				"point",
+				"pointNext"
+			],
+			[
+				"poin",
+				"pointPrev"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"sta",
+				"startTime"
+			],
+			[
+				"max",
+				"maxS"
+			],
+			[
+				"temp",
+				"tempX1"
+			],
+			[
+				"line",
+				"lines"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 366.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"exit()",
+			"python solution.py",
+			"python sol"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/artemis/mbox",
+		"/Users/artemis/Documents/Third Year/Systems - SOFE-3200/Assignment/Assignment 1/question3.sh",
+		"/Users/artemis/Development/IEEE_Site/UOITIEEE/_site/index.html",
+		"/Users/artemis/Development/IEEE_Site/UOITIEEE/_config.yml",
+		"/Users/artemis/Documents/RaffleTicket/mail_thankyou.php",
+		"/Users/artemis/Documents/Third Year/Algo - SOFE-3770/Assignment/Assignment 2/Charts_JS/chart.js",
+		"/Users/artemis/Documents/Third Year/Algo - SOFE-3770/Assignment/Assignment 2/Charts_JS/index.html",
+		"/Users/artemis/Documents/fonts.txt",
+		"/Users/artemis/Documents/RaffleTicket/order.php",
+		"/Users/artemis/Documents/Third Year/Data - SOFE-3700/Laboratory/Lab 3.sql",
+		"/Users/artemis/Documents/Third Year/Algo - SOFE-3770/Assignment/Assignment 1/Javascript/Longest-Runway/sketch.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Python.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
