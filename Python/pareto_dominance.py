@@ -1,25 +1,42 @@
+import math
 import numpy as np
 import matplotlib.pyplot as plt
 
+def xMin(x1, x2):
+	return x1 <= x2
+
+def xMax(x1, x2):
+	return x1 >= x2
+
+def yMin(points):
+	return reversed(range(len(points)))
+
+def yMax(points):
+	return range(len(points))
+
 # Fixing random state for reproducibility
-np.random.seed(34124)
+np.random.seed(87656)
 
 N = 20
-x = np.random.rand(N)
-y = np.random.rand(N)
-colors = ['red']*N
+x = np.random.randint(100, size=(1, 20))[0]
+y = np.random.randint(100, size=(1, 20))[0]
 
-x = [ int(i*150) for i in x ]
-y = [ int(i*150) for i in y ]
+xDom = 0
+yDom = 1
+
+xCase = xMax if xDom > 0 else xMin
+yCase = yMax if yDom > 0 else yMin
+
+colors = ['red']*N
 
 front = []
 
-points = sorted(zip(x, y, colors), key=lambda x:x[1], reverse=True)
+points = sorted(zip(x, y, colors), key=lambda x:x[1])
 
-front_point = points[0]
+front_point = points[0] if yDom > 0 else points[-1]
 
-for i in range(len(points)):
-	if points[i][0] <= front_point[0]:
+for i in yCase(points):
+	if xCase(points[i][0], front_point[0]):
 		front_point = points[i]
 		temp = list(points[i])
 		temp[2] = 'blue'
